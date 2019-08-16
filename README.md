@@ -48,19 +48,20 @@ Kotlin setup in eclipse:
  
  Function in kotlin
  --------------------
-  using fun keywords
-  
-  fun function_name (parameters) {
-  //body
-  }
- 
- example of main function
- 
- fun main(args:Array<String>)
-  {
-  println("hello world");   
- }
- 
+       using fun keywords
+
+       fun function_name (parameters) {
+       //body
+       }
+
+      example of main function
+      ---------------------------
+
+      fun main(args:Array<String>)
+       {
+       println("hello world");   
+      }
+
  
  
  

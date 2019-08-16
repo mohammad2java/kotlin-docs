@@ -50,7 +50,7 @@ Kotlin setup in eclipse:
  --------------------
        using fun keywords
 
-       fun function_name (parameters) {
+       fun function_name (parameters): [return_type]{
        //body
        }
 
@@ -62,9 +62,12 @@ Kotlin setup in eclipse:
        println("hello world");   
       }
 
- 
- 
- 
+      default value of return_type is unit
+
+      fun findAge(): Int {
+      return 10;
+      }
+
  
  
  

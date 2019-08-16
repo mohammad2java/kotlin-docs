@@ -71,5 +71,53 @@ Kotlin setup in eclipse:
  
  
  
+ Scripting in Kotlin
+ -----------------------
+      its just like main method body along with import statement. file extension will be kts
+      to run script file you first need to setup kotlin setup 
+      1) download kotlin-compiler-1.3.41.zip
+      https://github.com/JetBrains/kotlin/releases/tag/v1.3.41 
+      2) set path varialbe to bin dir
+ 
+ how to write kotlin script (test.kts)
+ ----------------------------------
+ 
+      import java.io.File
+     var name = "String"
+          var myname : String  = "Amir"
+         println(name);
+           println(myname);
+          println("Hello, World");
+
+          if (myname.equals("Amir")) {
+               println("names are same");
+          }
+
+     val folders = File(args[0]).listFiles { file -> file.isDirectory() }
+     folders?.forEach { folder -> println(folder) }
+      save test.kts 
+
+      run using following command
+      kotlinc -script test.kts C:\Users\inkajm01
+
+      C:\Users\inkajm01 is command line argument
+
+      basic syntax is  kotlinc -script test.kts
+
+
+      to compile kts or kt file
+          kotlinc  test.kts
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  

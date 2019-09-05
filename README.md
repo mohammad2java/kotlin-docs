@@ -13,6 +13,12 @@ Kotlin setup in eclipse:
       or you can search in maven for latest version
  
  
+ setting kotlin compiler in System
+ -------------------------------------
+ 1) please visit https://kotlinlang.org/docs/tutorials/command-line.html ,click on github release link to download compiler.
+ 2) go to bottom and download kotlin-compiler-1.3.50.zip ,unzip and set path to bin for this kotlin.
+ 3) open cmd and type kotlin -version
+ 
  
  Basic of Kotlin
  -----------------
